@@ -1,10 +1,10 @@
 package datastructures;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Queue<T> {
-    List<T> l = new LinkedList<>();
+    List<T> l = new ArrayList<>();
     public void add(T e){
         l.add(0, e);
     }

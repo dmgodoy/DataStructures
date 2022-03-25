@@ -1,11 +1,11 @@
 package datastructures;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Stack<T> {
 
-    List<T> l = new LinkedList<>();
+    List<T> l = new ArrayList<>();
     public void push(T value){
         l.add(value);
     }
